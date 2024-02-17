@@ -12,7 +12,7 @@
     "preview": "vite preview"
   },
 
-  "homepage": "https://olegbarabash.github.io/LearnLingo/",
+  "homepage": "https://OlegBarabash.github.io/LearnLingo/",
 
   "dependencies": {
     "react": "^18.2.0",
