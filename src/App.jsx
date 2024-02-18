@@ -1,4 +1,5 @@
-import "./App.css";
+// import "./App.css";
+import { GlobalStyle } from "./GlobalStyle";
 import { Route, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Teachers } from "./pages/Teachers";
@@ -16,6 +17,7 @@ function App() {
             <Route path="*" element={<Home />} />
           </Route>
         </Routes>
+        <GlobalStyle />
       </div>
     </>
   );

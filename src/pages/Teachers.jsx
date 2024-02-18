@@ -1,5 +1,6 @@
 import React from "react";
+import { Container } from "../Container";
 
 export const Teachers = () => {
-  return <div>Teachers</div>;
+  return <Container>Teachers</Container>;
 };

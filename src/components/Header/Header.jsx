@@ -1,12 +1,15 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { HeaderWrap, NaviLink } from "./Header.styled";
+import { Container } from "../../Container";
 
 export const Header = () => {
   return (
-    <div>
-      <NavLink to={"/"}>Home</NavLink>
-      <NavLink to={"/teachers"}>Teachers</NavLink>
-      <NavLink to={"/favorites"}>Favorites</NavLink>
-    </div>
+    <Container>
+      <HeaderWrap>
+        <NaviLink to={"/"}>Home</NaviLink>
+        <NaviLink to={"/teachers"}>Teachers</NaviLink>
+        <NaviLink to={"/favorites"}>Favorites</NaviLink>
+      </HeaderWrap>
+    </Container>
   );
 };
